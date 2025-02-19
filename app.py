@@ -2,8 +2,7 @@ import pandas as pd
 import streamlit as st
 import plotly.express as px
 
-car_data = pd.read_csv('C:/Users/kelvi/OneDrive/Documentos/novorepositorio/vehicles.csv')
-
+car_data = pd.read_csv("C:\\Users\\kelvi\\Projeto5\\vehicles.csv")
 st.title("Análise de Dados de Veículos")
 
 if st.button("Mostrar Dados"):
