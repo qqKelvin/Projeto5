@@ -1,2 +1,1 @@
-headless = true
-port = 8080
+toml [server] v adless = true port = 10000 [browser] serverAddress = "0.0.0.0" serverPort = 10000 
